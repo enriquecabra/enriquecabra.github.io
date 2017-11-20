@@ -1,3 +1,4 @@
+<!-- INTRODUCCION AL CAFE -->
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -7,45 +8,53 @@
   "provider": {
     "@type": "Organization",
     "name": "Negro - Compañía de Café",
+    "image": "https://static1.squarespace.com/static/55ed0983e4b058cd816d2689/t/59d7ffe7f43b55edb92f2cb0/1507328059844/varios-cafe-horizontal.jpg?format=2500w",
      "sameAs": [
         "http://www.facebook.com/negroelcafe",
         "http://instagram.com/negro.coffee",
-        "http://www.linkedin.com/in/yourprofile",
         "http://plus.google.com/103106544722411113985",
         "http://www.twitter.com/negroelcafe"
       ]
   }
 }
 </script>
+<!-- EXPERIENCIA SENSORIAL -->
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Course",
   "name": "Experiencia Sensorial de Café",
-  "description": "Ideal para personas que quieren profundizar en su afición al café y además pasar un buen rato con amigos o familiares alrededor del café..",
+  "description": "Taller para desarrollar los sentidos y poder descubrir la complejidad que una buena taza de café puede llegar a tener.",
   "provider": {
     "@type": "Organization",
     "name": "Negro - Compañía de Café",
-    "sameAs": "http://www.negro.coffee",
-    "sameAs": "http://www.facebook.com/negroelcafe",
-    "sameAs": "http://www.twitter.com/negroelcafe",
-    "sameAs": "http://www.instagram.com/negro.coffee"
+    "image": "https://static1.squarespace.com/static/55ed0983e4b058cd816d2689/t/59b181e449fc2b50d067223d/1504805403104/jamie-street-94242-min.jpg?format=2500w",
+     "sameAs": [
+        "http://www.facebook.com/negroelcafe",
+        "http://instagram.com/negro.coffee",
+        "http://plus.google.com/103106544722411113985",
+        "http://www.twitter.com/negroelcafe"
+      ]
   }
 }
 </script>
+<!-- CATACION TECNICA DE CAFE -->
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Course",
   "name": "Catación Técnica de Café",
-  "description": "Ideal para personas que quieren profundizar en su afición al café y además pasar un buen rato con amigos o familiares alrededor del café..",
+  "description": "Para profundizar en el conocimiento del café es importante aprender a catar café. En la cata podemos identificar los sabores específicos de cada grano y los posibles defectos que tiene.",
   "provider": {
     "@type": "Organization",
     "name": "Negro - Compañía de Café",
-    "sameAs": "http://www.negro.coffee"
-    "sameAs": "http://www.facebook.com/negroelcafe"
-    "sameAs": "http://www.twitter.com/negroelcafe"
-    "sameAs": "http://www.instagram.com/negro.coffee"
+    "image": "https://static1.squarespace.com/static/55ed0983e4b058cd816d2689/t/59aaff72d482e948b57bcc89/1504378750236/DSC03542-min.JPG?format=1000w",
+     "sameAs": [
+        "http://www.facebook.com/negroelcafe",
+        "http://instagram.com/negro.coffee",
+        "http://plus.google.com/103106544722411113985",
+        "http://www.twitter.com/negroelcafe"
+      ]
   }
 }
 </script>
