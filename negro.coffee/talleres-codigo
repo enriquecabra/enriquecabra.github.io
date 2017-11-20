@@ -1,0 +1,51 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "Introducción al Café",
+  "description": "Ideal para personas que quieren profundizar en su afición al café y además pasar un buen rato con amigos o familiares alrededor del café..",
+  "provider": {
+    "@type": "Organization",
+    "name": "Negro - Compañía de Café",
+     "sameAs": [
+        "http://www.facebook.com/negroelcafe",
+        "http://instagram.com/negro.coffee",
+        "http://www.linkedin.com/in/yourprofile",
+        "http://plus.google.com/103106544722411113985",
+        "http://www.twitter.com/negroelcafe"
+      ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "Experiencia Sensorial de Café",
+  "description": "Ideal para personas que quieren profundizar en su afición al café y además pasar un buen rato con amigos o familiares alrededor del café..",
+  "provider": {
+    "@type": "Organization",
+    "name": "Negro - Compañía de Café",
+    "sameAs": "http://www.negro.coffee",
+    "sameAs": "http://www.facebook.com/negroelcafe",
+    "sameAs": "http://www.twitter.com/negroelcafe",
+    "sameAs": "http://www.instagram.com/negro.coffee"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "Catación Técnica de Café",
+  "description": "Ideal para personas que quieren profundizar en su afición al café y además pasar un buen rato con amigos o familiares alrededor del café..",
+  "provider": {
+    "@type": "Organization",
+    "name": "Negro - Compañía de Café",
+    "sameAs": "http://www.negro.coffee"
+    "sameAs": "http://www.facebook.com/negroelcafe"
+    "sameAs": "http://www.twitter.com/negroelcafe"
+    "sameAs": "http://www.instagram.com/negro.coffee"
+  }
+}
+</script>

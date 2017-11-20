@@ -1,0 +1,26 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "http://www.negro.coffee",
+  "logo": "https://static1.squarespace.com/static/55ed0983e4b058cd816d2689/t/5a0dd21171c10b6934d24b4c/1510855193488/logo-negro-compania-de-cafe.png?format=1500w"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Negro - Compa\u00F1\u00EDa de Caf\u00E9",
+  "url": "http://www.negro.coffee",
+  "sameAs": [
+    "http://www.facebook.com/negroelcafe",
+    "http://instagram.com/negro.coffee",
+    "http://plus.google.com/103106544722411113985",
+		"http://www.twitter.com/negroelcafe"
+  ]
+}
+</script>
+<!-- bing validate Code -->
+<meta name="msvalidate.01" content="306E2EB0183902385A21006D5756A60E" />
+<!-- search console google validate Code -->
+<meta name="google-site-verification" content="MIjKJbOqX4AYYx8JAV6L_p22GFQTtysylakVvpvl23g" />
