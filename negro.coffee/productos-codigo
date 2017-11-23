@@ -20,13 +20,13 @@
       <h3>
         <span itemprop="name">Cold Brew <br/>Botella 500ml.</span>
       </h3>
-      </div> 
+    </div> 
     <div class="container-img">
       <img src="https://static1.squarespace.com/static/55ed0983e4b058cd816d2689/t/5927339a8419c2fe84fb6692/1495741339879/b500-ver-600w-1.jpg?format=500w" alt="Cold Brew - Botella 500ml. Negro Compañía de Café">
     </div>
   </div>
   <div class="container-texto-producto">
-    <div class="producto-marca">
+    <div class="producto-marca esconder">
       <div class="texto-marca">
         <h4>por:</h4>
       </div>  
@@ -40,16 +40,16 @@
       <span class="esconder" itemprop="brand">Negro CC</span>
     </div>
     <div class="descripcion-producto" itemprop="image">
-      <p>Estamos seguros que el Café Frío de Negro te encantará, y queremos que tengas a tu disposición nuestras recetas para que prepares un café helado para cada ocasión, lattes, negros, frappés, con licores… las posibilidades son infinitas y tu puedes alcanzar la maestría de las preparaciones del café frío.</p>
+      <p>Estamos seguros que el <a href="/productos/concentrado-cafe-frio"><strong>Concentrado Concentrado de Café Frío</strong></a> de <strong>Negro</strong> te encantará, tienes a disposición nuestras <a href="/blog?category=Recetas"><strong>recetas</strong></a>. Con esta botella puedes preparar hasta 7 vasos de café frío.</p>
       <h4>
-      <br itemprop="price" class="">
-    Precio: $13.000<br/>
-    <meta itemprop="priceCurrency" content="COP" />
-    <link itemprop="availability" href="http://schema.org/InStock"/>Disponible inmediatamente! <br/>Pídelo Ya!</h4>
+        <span itemprop="price" class="">Precio: $13.000<br/><br/></span>
+        <meta itemprop="priceCurrency" content="COP" />
+        <link itemprop="availability" href="http://schema.org/InStock"/>Disponible inmediatamente! <br/><br/>Pídelo Ya!
+      </h4>
     </div>
     <div class="container-boton-compra">
       <div id='product-component-b4351cc52c6'></div>
-      <script type="text/javascript">
+       <script type="text/javascript">
 /*<![CDATA[*/
 
 (function () {
@@ -336,11 +336,11 @@
       </h3>
       </div> 
     <div class="container-img">
-      <img src="https://static1.squarespace.com/static/55ed0983e4b058cd816d2689/t/5927339a8419c2fe84fb6692/1495741339879/b500-ver-600w-1.jpg?format=500w" alt="Cold Brew - Botella 500ml. Negro Compañía de Café">
+      <img src="https://static1.squarespace.com/static/55ed0983e4b058cd816d2689/t/59273447893fc0394ec11c7d/1495741516406/?format=500w">
     </div>
   </div>
   <div class="container-texto-producto">
-    <div class="producto-marca">
+    <div class="producto-marca esconder">
       <div class="texto-marca">
         <h4>por:</h4>
       </div>  
@@ -354,12 +354,11 @@
       <span class="esconder" itemprop="brand">Negro CC</span>
     </div>
     <div class="descripcion-producto" itemprop="image">
-      <p>Estamos seguros que el Café Frío de Negro te encantará, y queremos que tengas a tu disposición nuestras recetas para que prepares un café helado para cada ocasión, lattes, negros, frappés, con licores… las posibilidades son infinitas y tu puedes alcanzar la maestría de las preparaciones del café frío.</p>
+      <p>Estamos seguros que el <a href="/productos/concentrado-cafe-frio"><strong>Concentrado Concentrado de Café Frío</strong></a> de <strong>Negro</strong> te encantará, tienes a disposición nuestras <a href="/blog?category=Recetas"><strong>recetas</strong></a>. Con esta botella puedes preparar hasta 14 vasos de café frío.</p>
       <h4>
-        <br itemprop="price" class="">
-           Precio: $24.000<br/>
+        <span itemprop="price" class="">Precio: $24.000<br/><br/></span>
         <meta itemprop="priceCurrency" content="COP" />
-        <link itemprop="availability" href="http://schema.org/InStock"/>Disponible inmediatamente!               <br/>Pídelo Ya!
+        <link itemprop="availability" href="http://schema.org/InStock"/>Disponible inmediatamente! <br/><br/>Pídelo Ya!
       </h4>
     </div>
     <div class="container-boton-compra">

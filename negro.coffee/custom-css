@@ -319,3 +319,7 @@ img.Mobile-bar-branding-logo {
     flex-direction: column;
   }
 } 
+/* - BLOQUE SUMMARY - */
+div.summary-thumbnail-outer-container > a.summary-thumbnail-container.sqs-gallery-image-container {
+	margin-bottom: 0;
+}
