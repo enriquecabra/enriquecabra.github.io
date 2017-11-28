@@ -268,10 +268,11 @@ img.Mobile-bar-branding-logo {
 }
 .titulo-producto {
   background-color: #303030;
+	padding: 1.4rem;
 }
-.titulo-producto h3 {
+.titulo-producto h3, h2 {
   color: white;
-  padding: 1.4rem;
+	margin: 0;
 }
 .container-img {
   min-width: 300px;
@@ -286,25 +287,6 @@ img.Mobile-bar-branding-logo {
 }
 .esconder {
   display: none;
-}
-.texto-marca {
-  flex-grow: 1;
-  text-align: right;
-  padding-right: 1rem;
-}
-.texto-marca h4 {
-  color: white;
-  font-size: 1.6rem;
-  text-decoration: none;
-  margin: 0;
-}
-.container-logo {
-  max-width: 20%;
-  flex-grow: 5;
-  background-color: white;
-  align-self: center;
-  padding: 0.6rem;
-  margin-right: 2rem;
 }
 .descripcion-producto {
   padding: 1rem;
@@ -326,6 +308,10 @@ img.Mobile-bar-branding-logo {
   .container-producto {
     flex-direction: column;
   }
+	.container-img img{
+		max-height: 60vh;
+		text-align: center;
+	}
 }
 /* - BLOQUE SUMMARY - */
 div.summary-thumbnail-outer-container > a.summary-thumbnail-container.sqs-gallery-image-container {
