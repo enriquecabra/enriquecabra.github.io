@@ -257,20 +257,27 @@ img.Mobile-bar-branding-logo {
 /* - PRODUCTOS - */
 .container-producto {
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.container-img-texto {
+	display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
 }
-.titulo-img , .container-texto-producto {
+.container-texto-producto {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+	aling-items: center;
 }
 .titulo-producto {
   background-color: #303030;
 	padding: 1.4rem;
 }
-.titulo-producto h3, h2 {
+.titulo-producto h3, .titulo-producto h2 {
   color: white;
 	margin: 0;
 }
@@ -290,7 +297,6 @@ img.Mobile-bar-branding-logo {
 }
 .descripcion-producto {
   padding: 1rem;
-  border-top: 1rem solid #303030;
 }
 .descripcion-producto > p {
   margin-bottom: 0;
@@ -302,15 +308,21 @@ img.Mobile-bar-branding-logo {
   align-self: flex-end;
 }
 @media screen and (max-width: 1000px) {
-  .titulo-img , .container-texto-producto {
+  .container-texto-producto {
     flex-grow: 1;
   }
   .container-producto {
     flex-direction: column;
   }
+	.container-img {
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.container-img img{
 		max-height: 60vh;
-		text-align: center;
+	}
+	.container-img-texto {
+		flex-direction: column;
 	}
 }
 /* - BLOQUE SUMMARY - */
@@ -325,4 +337,8 @@ p a {
 p a:hover {
     border-bottom: 3px solid #66beff;
     background-color:  #66beff;
+}
+h1 {
+	background-color: #303030;
+  padding: 1rem;
 }
