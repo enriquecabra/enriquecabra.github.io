@@ -86,28 +86,20 @@
   }
 }
 /* - TIPOGRAFIA - */
-h1 {
-	background-color: #235789;
-  padding: 1rem;
-}
-.shadow {
-  color: #fff;
-  font-family: Arvo;
-  font-weight: bold;
-  text-shadow:
-    -3px -3px 0 #222,
-    3px -3px 0 #222,
-    -3px 3px 0 #222,
-    3px 3px 0 #222,
-    4px 4px 0 #fff,
-    5px 5px 0 #fff,
-    6px 6px 0 #fff,
-    7px 7px 0 #fff;
-}
+/*h1 {
+ 	text-shadow:
+    -3px -3px 0 #fff,
+    3px -3px 0 #fff,
+    -3px 3px 0 #fff,
+    3px 3px 0 #fff,
+    4px 4px 0 #235789,
+    5px 5px 0 #235789,
+    6px 6px 0 #235789,
+    7px 7px 0 #235789,
+}*/
 h2 {
 	padding: 0.6rem;
-	background-color: #00a8e8;
-	color: white;
+	color: #00a8e8;
  a {
   border-bottom: 4px solid;
   padding-bottom: 0px;
@@ -124,6 +116,32 @@ h4 {
     font-weight: 900;
     font-size: 22px;
     text-decoration: underline;
+}
+@media screen and (max-width: 640px) {
+	h1 {
+		font-size: 3rem;
+		letter-spacing: 0.4rem;
+		line-height: 3.9rem;
+	}
+	h3 {
+      font-size:18px;
+     }
+	.BlogItem-title
+    {
+    	font-size:36px;
+    }
+  div.image-card-wrapper > div > div.image-title-wrapper > div > p > strong
+    {
+      font-size: 1.4rem;
+	  }
+  div.image-card-wrapper > div > div.image-subtitle-wrapper > div > p
+    {
+      font-size: 1.3rem;
+	  }
+a.sqs-block-button-element--large.sqs-block-button-element
+    {
+      font-size: 2.2rem;
+    }
 }
 /* - MARDOWN - */
 .sqs-block-markdown p a {
@@ -208,32 +226,6 @@ div.image-card-wrapper > div > div.image-title-wrapper > div > p > strong {
 }
 div.image-card-wrapper > div > div.image-subtitle-wrapper > div > p {
   font-size: 1.8rem;
-}
-
-@media screen and (max-width: 640px) {
-  h3 {
-      font-size:18px;
-     }
-  h1 {
-      font-size:36px;
-    	line-height:1.1em;
-     }
-  .BlogItem-title
-    {
-        	font-size:36px;
-    }
-  div.image-card-wrapper > div > div.image-title-wrapper > div > p > strong
-    {
-      font-size: 1.4rem;
-	  }
-  div.image-card-wrapper > div > div.image-subtitle-wrapper > div > p
-    {
-      font-size: 1.3rem;
-	  }
-a.sqs-block-button-element--large.sqs-block-button-element
-    {
-      font-size: 2.2rem;
-    }
 }
 /* - SVG - */
 .imageholder{
@@ -374,23 +366,24 @@ p a:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  div.titulo {
+	border-left: 0.5rem solid #303030;
+    padding: 0 0 0 0.6rem;
+}
+.h1titulo {
+	font-size: 5rem;
+  line-height: 6rem;
+  letter-spacing: 0.3rem;
+  margin: 0;
+  padding: 0;
+}
+.decoldbrew {
+	font-size: 2.6rem;
+  font-family: "Anton";
+  	line-height: 2.6rem;
+  letter-spacing: 0.2rem;
+  color: #303030;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
