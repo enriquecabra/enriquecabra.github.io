@@ -86,9 +86,33 @@
   }
 }
 /* - TIPOGRAFIA - */
-h2 a {
+h1 {
+	background-color: #235789;
+  padding: 1rem;
+}
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+}
+h2 {
+	padding: 0.6rem;
+	background-color: #00a8e8;
+	color: white;
+ a {
   border-bottom: 4px solid;
   padding-bottom: 0px;
+
+	}
 }
 h3 a{
     border-bottom: 4px solid;
@@ -134,7 +158,8 @@ h4 {
 }
 /* - NEWsLETTER - */
 header.newsletter-form-header > h2.newsletter-form-header-title {
-    font-size: 40px;
+  font-size: 40px;
+	background-color: transparent;
 }
 header.newsletter-form-header > div.newsletter-form-header-description > p {
     font-size: 18px;
@@ -240,6 +265,9 @@ img.Mobile-bar-branding-logo {
 #inicio-presentacion {
   border: 12px solid #303030;
 }
+#somos-negro {
+	background-color: white;
+}
 #somos-negro, #compania-de-cafe, #somos {
   text-align: center;
   font-family: Playfair Display SC;
@@ -274,15 +302,16 @@ img.Mobile-bar-branding-logo {
 	aling-items: center;
 }
 .titulo-producto {
-  background-color: #303030;
-	padding: 1.4rem;
+  background-color: #00a8e8;
+	padding: 0.80rem;
 }
 .titulo-producto h3, .titulo-producto h2 {
   color: white;
 	margin: 0;
 }
 .container-img {
-  min-width: 300px;
+  min-width: 100px;
+	max-width: 200px;
   padding-top: 1rem;
 }
 .producto-marca {
@@ -338,7 +367,30 @@ p a:hover {
     border-bottom: 3px solid #66beff;
     background-color:  #66beff;
 }
-h1 {
-	background-color: #303030;
-  padding: 1rem;
+
+/* - DOMICILIOS -*/
+#block-yui_3_17_2_3_1495769819537_75650 {
+	max-width: 40vw;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
