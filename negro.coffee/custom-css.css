@@ -86,24 +86,11 @@
   }
 }
 /* - TIPOGRAFIA - */
-/*h1 {
- 	text-shadow:
-    -3px -3px 0 #fff,
-    3px -3px 0 #fff,
-    -3px 3px 0 #fff,
-    3px 3px 0 #fff,
-    4px 4px 0 #235789,
-    5px 5px 0 #235789,
-    6px 6px 0 #235789,
-    7px 7px 0 #235789,
-}*/
 h2 {
 	padding: 0.6rem;
-	color: #00a8e8;
- a {
+	a {
   border-bottom: 4px solid;
   padding-bottom: 0px;
-
 	}
 }
 h3 a{
@@ -216,7 +203,6 @@ span.summary-metadata-item.summary-metadata-item--cats {
 span.summary-metadata-item.summary-metadata-item--cats > a {
   font-size: 16px;
 }
-
 div.summary-title {
   background-color: #66beff;
   padding: 0.5em;
@@ -273,7 +259,6 @@ img.Mobile-bar-branding-logo {
 	font-size: 7rem;
   	margin-bottom:10px;
 }
-
 /* - PRODUCTOS - */
 .container-producto {
   display: flex;
@@ -359,14 +344,13 @@ p a:hover {
     border-bottom: 3px solid #66beff;
     background-color:  #66beff;
 }
-
 /* - DOMICILIOS -*/
 #block-yui_3_17_2_3_1495769819537_75650 {
 	max-width: 40vw;
 	margin-left: auto;
 	margin-right: auto;
 }
-  div.titulo {
+div.titulo {
 	border-left: 0.5rem solid #303030;
     padding: 0 0 0 0.6rem;
 }
@@ -387,3 +371,12 @@ p a:hover {
   padding: 0;
   position: relative;
 }
+
+
+
+
+
+
+
+
+
