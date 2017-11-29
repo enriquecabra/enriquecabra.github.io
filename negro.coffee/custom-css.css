@@ -130,6 +130,15 @@ a.sqs-block-button-element--large.sqs-block-button-element
       font-size: 2.2rem;
     }
 }
+li {
+	a {
+		line-height: 2.4rem;
+		border-bottom: 3px solid #66beff;
+    color: #303030;
+    padding-bottom: 0px;
+    box-shadow: inset 0 -4px 0 #66beff;
+	}
+}
 /* - MARDOWN - */
 .sqs-block-markdown p a {
     border-bottom: 3px solid #66beff;
