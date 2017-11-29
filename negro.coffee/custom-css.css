@@ -373,13 +373,39 @@ div.titulo {
 .decoldbrew {
 	font-size: 2.6rem;
   font-family: "Anton";
-  	line-height: 2.6rem;
+  	line-height: 2.8rem;
   letter-spacing: 0.2rem;
   color: #303030;
   margin: 0;
   padding: 0;
   position: relative;
 }
+@media screen and (max-width:640px) {
+	.h1titulo {
+		font-size: 4rem;
+		line-height: 4.4rem;
+		letter-spacing: 0.1rem;
+	}
+	.decoldbrew {
+		font-size: 2rem;
+		line-height: 2.3rem;
+		letter-spacing: 0.1rem;
+	}
+}
+
+/* -- FOOTER -- */
+.lineas {
+  height: 20px;
+background-image: linear-gradient(to right, #235789, #235789 25%, #03191e 25%, #03191e 50%, #b3001b 50%, #b3001b 75%, #ffe524 75%);
+    background-size: 55% 6px;
+    background-position: 50% 100%;
+    background-repeat: repeat;
+}
+
+
+
+
+
 
 
 
