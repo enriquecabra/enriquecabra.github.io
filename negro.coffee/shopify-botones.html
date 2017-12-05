@@ -1,0 +1,842 @@
+<!-- VER PRODUCTO -->
+<!-- 500ml -->
+<div id='product-component-3adb116fc93'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'negro-coffee.myshopify.com',
+      apiKey: '30e6a86d633a88322df8d1aa764fc9a1',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [11144830735],
+        node: document.getElementById('product-component-3adb116fc93'),
+        moneyFormat: '%24%7B%7Bamount_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "buttonDestination": "modal",
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "options": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "Ver Producto"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#00a8e8",
+        "font-family": "Raleway, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        "padding-left": "32px",
+        "padding-right": "32px",
+        ":hover": {
+          "background-color": "#0097d1"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#0097d1"
+        },
+        "font-weight": "bold"
+      },
+      "variantTitle": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "title": {
+        "font-family": "Raleway, sans-serif"
+      },
+      "description": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "price": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "quantityInput": {
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
+      },
+      "compareAt": {
+        "font-size": "12px",
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      }
+    },
+    "googleFonts": [
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "text": {
+      "title": "Canasta",
+      "notice": "Códigos de envío y descuentos se añaden al final.",
+      "button": "PAGAR",
+      "empty": "Su canasta está vacía."
+    },
+    "styles": {
+      "button": {
+        "background-color": "#00a8e8",
+        "font-family": "Raleway, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#0097d1"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#0097d1"
+        },
+        "font-weight": "bold"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Raleway"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "Agregar al carrito"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#00a8e8",
+        "font-family": "Raleway, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        "padding-left": "32px",
+        "padding-right": "32px",
+        ":hover": {
+          "background-color": "#0097d1"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#0097d1"
+        },
+        "font-weight": "bold"
+      },
+      "variantTitle": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "title": {
+        "font-family": "Raleway, sans-serif"
+      },
+      "description": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "price": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "quantityInput": {
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
+      },
+      "compareAt": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      }
+    },
+    "googleFonts": [
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Raleway, sans-serif",
+        "background-color": "#00a8e8",
+        ":hover": {
+          "background-color": "#0097d1"
+        },
+        ":focus": {
+          "background-color": "#0097d1"
+        },
+        "font-weight": "bold"
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        },
+        "font-size": "18px"
+      },
+      "iconPath": {
+        "fill": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Raleway"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "select": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      }
+    },
+    "googleFonts": [
+      "Raleway",
+      "Raleway"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+<!-- otro 500 -->
+<div id='product-component-265ebccc0e8'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'negro-coffee.myshopify.com',
+      apiKey: '30e6a86d633a88322df8d1aa764fc9a1',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [11144830735],
+        node: document.getElementById('product-component-265ebccc0e8'),
+        moneyFormat: '%24%7B%7Bamount_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "AÑADIR A LA CANASTA"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#0072bb",
+        "font-family": "Oxygen, sans-serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        "padding-left": "32px",
+        "padding-right": "32px",
+        ":hover": {
+          "background-color": "#0067a8"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#0067a8"
+        },
+        "font-weight": "bold"
+      },
+      "variantTitle": {
+        "font-family": "Oxygen, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Oxygen, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Oxygen, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Oxygen, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-size": "12px",
+        "font-family": "Oxygen, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Oxygen",
+      "Oxygen",
+      "Oxygen",
+      "Oxygen",
+      "Oxygen",
+      "Oxygen"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "text": {
+      "title": "Canasta",
+      "notice": "Códigos de envío y descuentos se añaden al final.",
+      "button": "PAGAR",
+      "empty": "Su canasta está vacía."
+    },
+    "styles": {
+      "button": {
+        "background-color": "#0072bb",
+        "font-family": "Oxygen, sans-serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#0067a8"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#0067a8"
+        },
+        "font-weight": "bold"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Oxygen"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#0072bb",
+        "font-family": "Oxygen, sans-serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        "padding-left": "32px",
+        "padding-right": "32px",
+        ":hover": {
+          "background-color": "#0067a8"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#0067a8"
+        },
+        "font-weight": "bold"
+      },
+      "variantTitle": {
+        "font-family": "Oxygen, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Oxygen, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Oxygen, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Oxygen, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-family": "Oxygen, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Oxygen",
+      "Oxygen",
+      "Oxygen",
+      "Oxygen",
+      "Oxygen",
+      "Oxygen"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Oxygen, sans-serif",
+        "background-color": "#0072bb",
+        ":hover": {
+          "background-color": "#0067a8"
+        },
+        ":focus": {
+          "background-color": "#0067a8"
+        },
+        "font-weight": "bold"
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        },
+        "font-size": "15px"
+      },
+      "iconPath": {
+        "fill": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Oxygen"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Oxygen, sans-serif"
+      },
+      "select": {
+        "font-family": "Oxygen, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Oxygen",
+      "Oxygen"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+<!-- 1000ml -->
+
+
+
+<!-- AGREGAR AL CARRITO -->
+<!-- 500ml -->
+<div id='product-component-abf04342af9'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'negro-coffee.myshopify.com',
+      apiKey: '30e6a86d633a88322df8d1aa764fc9a1',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [11144830735],
+        node: document.getElementById('product-component-abf04342af9'),
+        moneyFormat: '%24%7B%7Bamount_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "Agregar al Carrito"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#00a8e8",
+        "font-family": "Raleway, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        "padding-left": "32px",
+        "padding-right": "32px",
+        ":hover": {
+          "background-color": "#0097d1"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#0097d1"
+        },
+        "font-weight": "bold"
+      },
+      "variantTitle": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "title": {
+        "font-family": "Raleway, sans-serif"
+      },
+      "description": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "price": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "quantityInput": {
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
+      },
+      "compareAt": {
+        "font-size": "12px",
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      }
+    },
+    "googleFonts": [
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "text": {
+      "title": "Canasta",
+      "notice": "Códigos de envío y descuentos se añaden al final.",
+      "button": "PAGAR",
+      "empty": "Su canasta está vacía."
+    },
+    "styles": {
+      "button": {
+        "background-color": "#00a8e8",
+        "font-family": "Raleway, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#0097d1"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#0097d1"
+        },
+        "font-weight": "bold"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Raleway"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "Agregar al carrito"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#00a8e8",
+        "font-family": "Raleway, sans-serif",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        "padding-left": "32px",
+        "padding-right": "32px",
+        ":hover": {
+          "background-color": "#0097d1"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#0097d1"
+        },
+        "font-weight": "bold"
+      },
+      "variantTitle": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "title": {
+        "font-family": "Raleway, sans-serif"
+      },
+      "description": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "price": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "quantityInput": {
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
+      },
+      "compareAt": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      }
+    },
+    "googleFonts": [
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Raleway, sans-serif",
+        "background-color": "#00a8e8",
+        ":hover": {
+          "background-color": "#0097d1"
+        },
+        ":focus": {
+          "background-color": "#0097d1"
+        },
+        "font-weight": "bold"
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        },
+        "font-size": "18px"
+      },
+      "iconPath": {
+        "fill": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Raleway"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      },
+      "select": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "bold"
+      }
+    },
+    "googleFonts": [
+      "Raleway",
+      "Raleway"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>

@@ -1,33 +1,57 @@
 /* - INICIO - */
 /* - BANNER - INICIO - */
+.container-container {
+	display: block;
+}
 .container-flexo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .item-flexo {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   margin: 0;
   padding: 0;
   position: relative;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 33.33vmax;
   height: 100%;
 }
 .img-container-flexo {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width:100%;
 }
 .item-flexo img {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
 }
 .text-container-item-flexo {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: absolute;
   bottom: 0;
   margin-left: 1.5rem;
@@ -35,7 +59,8 @@
   background-color: hsla(0, 0, 0, 0.6);
 }
 .text-h2-container-flexo {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   padding: 0.4rem;
   margin: 0;
@@ -50,7 +75,8 @@
   font-weight: 700;
 } 
 .text-h2-container-flexo > h2 > a {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     color: white;
     text-decoration: none; 
     line-height: 0.8rem;
@@ -67,23 +93,51 @@
 }
 @media screen and (max-width: 800px) {
   .container-flexo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .item-flexo {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     margin: 0.5rem 0 0 0;
     padding: 0;
     position: relative;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     max-width: 90vw;
     height: 100%;
   }
+  .text-h2-container-flexo > h2 {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+  }
+}
+@media screen and (max-width:640px) {
+	.text-h2-container-flexo > h2 {
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
 }
 /* - TIPOGRAFIA - */
 h2 {
@@ -404,7 +458,10 @@ background-image: linear-gradient(to right, #235789, #235789 25%, #03191e 25%, #
 
 
 
-
+/* -- BOTON SHOPiFY -- */
+.purchase .btn { 
+  display: inline-block!important;
+}
 
 
 
